@@ -31,11 +31,18 @@ Add to your MCP client configuration:
 Fetches a website and converts its content to markdown. Returns only the page content without metadata.
 
 **Parameters:**
+
 - `url` (string): URL of the website to fetch
 
 **Example:**
+
 ```json
 {
   "url": "https://example.com/article"
 }
 ```
+
+## Next Steps
+
+- [ ] Make more refined strategies for popular / useful websites
+- [ ] Implement a Google Search API to retrieve relevant URLs based on a topic / query

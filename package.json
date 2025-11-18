@@ -1,0 +1,22 @@
+{
+  "name": "fetch2md-mcp-server",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "axios": "^1.4.0",
+    "node-html-parser": "^7.0.1",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.32",
+    "@types/turndown": "^5.0.5",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

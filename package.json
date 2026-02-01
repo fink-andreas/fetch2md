@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "test": "node dist/index.js https://example.com --cli",
+    "test:debug": "DEBUG=1 node dist/index.js https://example.com --cli"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.2",
